@@ -1,0 +1,34 @@
+PE Atlas Research and Education License
+Version 1.0
+
+Copyright (c) 2026 PE Atlas contributors
+
+This license applies to the PE Atlas source code and documentation distributed
+under these terms (the "Software"). Third-party components, example data, and
+model assets carry their respective licenses.
+
+Permission is granted without charge to use, copy, and modify the Software for
+research and education. This includes research or education at any organization,
+regardless of how it is funded, subject to the terms below.
+
+You may share copies or modified versions of the Software free of charge for
+research and education under these terms. Include this license and the copyright
+notice with any copy or substantial portion of the Software. If you distribute
+a modified version, identify it as modified.
+
+Separate written permission from the copyright holder is required to sell,
+rent, or license the Software or a modified version for payment, provide paid
+access to it, or include it in a paid product or service. Ordinary compensation,
+tuition, and research funding alone do not constitute payment for the Software.
+All rights not expressly granted are reserved.
+
+This license applies to copies distributed with it. Copies already distributed
+under another license retain their original terms.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

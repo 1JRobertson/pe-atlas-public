@@ -1,0 +1,35 @@
+# Build outputs and local caches
+/build/
+*.app/
+*.dylib
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+
+# Scan files, dataset downloads, and per-study outputs
+/Cases/
+/cases/
+/FUMPE/
+*.dcm
+*.dicom
+*.ima
+*.nii
+*.nii.gz
+*.nrrd
+*.nhdr
+*.mha
+*.mhd
+*.raw
+*.mrb
+*.mat
+*.zip
+*.rar
+*.7z
+source.json
+candidates.json
+artery-landmarks.json
+anatomy-pins.json
+image-review.json
+artery-ras.vtp

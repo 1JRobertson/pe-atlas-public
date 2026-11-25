@@ -1,0 +1,35 @@
+[
+  {
+    "case": "PAT001",
+    "source_slices": 201,
+    "expert_regions": 2,
+    "candidate_regions": 22,
+    "expert_regions_with_any_overlap": 2,
+    "candidate_regions_without_overlap": 19,
+    "voxel_dice": 0.3439,
+    "voxel_precision": 0.2276,
+    "voxel_recall": 0.7033
+  },
+  {
+    "case": "PAT002",
+    "source_slices": 185,
+    "expert_regions": 2,
+    "candidate_regions": 21,
+    "expert_regions_with_any_overlap": 2,
+    "candidate_regions_without_overlap": 19,
+    "voxel_dice": 0.0192,
+    "voxel_precision": 0.0105,
+    "voxel_recall": 0.115
+  },
+  {
+    "case": "PAT003",
+    "source_slices": 210,
+    "expert_regions": 5,
+    "candidate_regions": 19,
+    "expert_regions_with_any_overlap": 2,
+    "candidate_regions_without_overlap": 17,
+    "voxel_dice": 0.4693,
+    "voxel_precision": 0.4368,
+    "voxel_recall": 0.5069
+  }
+]

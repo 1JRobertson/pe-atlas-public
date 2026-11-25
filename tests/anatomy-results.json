@@ -1,0 +1,248 @@
+{
+  "method": "fumpe-appearance-arterial-evidence-v2",
+  "training": [
+    "PAT005",
+    "PAT008",
+    "PAT011",
+    "PAT014",
+    "PAT017",
+    "PAT020",
+    "PAT023",
+    "PAT026"
+  ],
+  "endpoint": "One or more overlapping voxels counts as a hit. Flag counts use original proposal IDs. Tissue remaining amber is excluded from red-only measurements.",
+  "design": "The first three consecutive nontraining subjects after PAT003 were chosen before checking their labels. Thresholds were fixed before scoring these subjects.",
+  "code_sha256": "015c008634f09e8a5c42e4a207dcd284e0ed12d454d759772541263f00a04c66",
+  "development": {
+    "cases": [
+      {
+        "case": "PAT001",
+        "expert_regions": 2,
+        "original": {
+          "flagged": 22,
+          "without_expert_overlap": 19,
+          "expert_regions_touched": 2,
+          "overlap_voxels": 13400,
+          "predicted_voxels": 58880,
+          "expert_voxels": 19054,
+          "dice": 0.3439,
+          "precision": 0.2276,
+          "recall": 0.7033
+        },
+        "red": {
+          "flagged": 3,
+          "without_expert_overlap": 1,
+          "expert_regions_touched": 2,
+          "overlap_voxels": 4427,
+          "predicted_voxels": 9528,
+          "expert_voxels": 19054,
+          "dice": 0.3098,
+          "precision": 0.4646,
+          "recall": 0.2323
+        },
+        "voxel_mm3": 0.38333555636940275
+      },
+      {
+        "case": "PAT002",
+        "expert_regions": 2,
+        "original": {
+          "flagged": 21,
+          "without_expert_overlap": 19,
+          "expert_regions_touched": 2,
+          "overlap_voxels": 178,
+          "predicted_voxels": 16993,
+          "expert_voxels": 1548,
+          "dice": 0.0192,
+          "precision": 0.0105,
+          "recall": 0.115
+        },
+        "red": {
+          "flagged": 4,
+          "without_expert_overlap": 4,
+          "expert_regions_touched": 0,
+          "overlap_voxels": 0,
+          "predicted_voxels": 773,
+          "expert_voxels": 1548,
+          "dice": 0.0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "voxel_mm3": 0.34332331270002214
+      },
+      {
+        "case": "PAT003",
+        "expert_regions": 5,
+        "original": {
+          "flagged": 19,
+          "without_expert_overlap": 17,
+          "expert_regions_touched": 2,
+          "overlap_voxels": 17869,
+          "predicted_voxels": 40908,
+          "expert_voxels": 35250,
+          "dice": 0.4693,
+          "precision": 0.4368,
+          "recall": 0.5069
+        },
+        "red": {
+          "flagged": 2,
+          "without_expert_overlap": 0,
+          "expert_regions_touched": 2,
+          "overlap_voxels": 10557,
+          "predicted_voxels": 15559,
+          "expert_voxels": 35250,
+          "dice": 0.4156,
+          "precision": 0.6785,
+          "recall": 0.2995
+        },
+        "voxel_mm3": 0.5537458020263699
+      }
+    ],
+    "expert_regions": 9,
+    "pooled": {
+      "original": {
+        "flagged": 62,
+        "without_expert_overlap": 55,
+        "expert_regions_touched": 6,
+        "overlap_voxels": 31447,
+        "expert_voxels": 55852,
+        "predicted_voxels": 116781,
+        "dice": 0.3643,
+        "precision": 0.2693,
+        "recall": 0.563,
+        "expert_volume_ml": 27.3551,
+        "overlap_volume_ml": 15.0927,
+        "expert_volume_covered_fraction": 0.55173
+      },
+      "red": {
+        "flagged": 9,
+        "without_expert_overlap": 5,
+        "expert_regions_touched": 4,
+        "overlap_voxels": 14984,
+        "expert_voxels": 55852,
+        "predicted_voxels": 25860,
+        "dice": 0.3668,
+        "precision": 0.5794,
+        "recall": 0.2683,
+        "expert_volume_ml": 27.3551,
+        "overlap_volume_ml": 7.5429,
+        "expert_volume_covered_fraction": 0.27574
+      }
+    }
+  },
+  "held_out": {
+    "cases": [
+      {
+        "case": "PAT004",
+        "expert_regions": 5,
+        "original": {
+          "flagged": 22,
+          "without_expert_overlap": 18,
+          "expert_regions_touched": 4,
+          "overlap_voxels": 2599,
+          "predicted_voxels": 34737,
+          "expert_voxels": 5960,
+          "dice": 0.1277,
+          "precision": 0.0748,
+          "recall": 0.4361
+        },
+        "red": {
+          "flagged": 2,
+          "without_expert_overlap": 0,
+          "expert_regions_touched": 2,
+          "overlap_voxels": 1360,
+          "predicted_voxels": 5303,
+          "expert_voxels": 5960,
+          "dice": 0.2415,
+          "precision": 0.2565,
+          "recall": 0.2282
+        },
+        "voxel_mm3": 0.34332331270002214
+      },
+      {
+        "case": "PAT006",
+        "expert_regions": 1,
+        "original": {
+          "flagged": 43,
+          "without_expert_overlap": 42,
+          "expert_regions_touched": 1,
+          "overlap_voxels": 629,
+          "predicted_voxels": 31118,
+          "expert_voxels": 1966,
+          "dice": 0.038,
+          "precision": 0.0202,
+          "recall": 0.3199
+        },
+        "red": {
+          "flagged": 7,
+          "without_expert_overlap": 6,
+          "expert_regions_touched": 1,
+          "overlap_voxels": 607,
+          "predicted_voxels": 3889,
+          "expert_voxels": 1966,
+          "dice": 0.2073,
+          "precision": 0.1561,
+          "recall": 0.3087
+        },
+        "voxel_mm3": 0.34332331270002214
+      },
+      {
+        "case": "PAT007",
+        "expert_regions": 2,
+        "original": {
+          "flagged": 16,
+          "without_expert_overlap": 8,
+          "expert_regions_touched": 2,
+          "overlap_voxels": 55902,
+          "predicted_voxels": 70957,
+          "expert_voxels": 162336,
+          "dice": 0.4792,
+          "precision": 0.7878,
+          "recall": 0.3444
+        },
+        "red": {
+          "flagged": 2,
+          "without_expert_overlap": 0,
+          "expert_regions_touched": 2,
+          "overlap_voxels": 2335,
+          "predicted_voxels": 2403,
+          "expert_voxels": 162336,
+          "dice": 0.0283,
+          "precision": 0.9717,
+          "recall": 0.0144
+        },
+        "voxel_mm3": 0.38333555636940275
+      }
+    ],
+    "expert_regions": 8,
+    "pooled": {
+      "original": {
+        "flagged": 81,
+        "without_expert_overlap": 68,
+        "expert_regions_touched": 7,
+        "overlap_voxels": 59130,
+        "expert_voxels": 170262,
+        "predicted_voxels": 136812,
+        "dice": 0.3851,
+        "precision": 0.4322,
+        "recall": 0.3473,
+        "expert_volume_ml": 64.9503,
+        "overlap_volume_ml": 22.5375,
+        "expert_volume_covered_fraction": 0.347
+      },
+      "red": {
+        "flagged": 11,
+        "without_expert_overlap": 6,
+        "expert_regions_touched": 5,
+        "overlap_voxels": 4302,
+        "expert_voxels": 170262,
+        "predicted_voxels": 11595,
+        "dice": 0.0473,
+        "precision": 0.371,
+        "recall": 0.0253,
+        "expert_volume_ml": 64.9503,
+        "overlap_volume_ml": 1.5704,
+        "expert_volume_covered_fraction": 0.02418
+      }
+    }
+  }
+}
